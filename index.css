@@ -1,0 +1,37 @@
+.container{
+    background-color: red;
+    width: 150px;
+    margin: auto !important;;
+    padding: 30px;
+    color: #fff;
+    overflow: hidden;
+
+}
+
+.parent{
+    overflow: hidden;
+    width: 150px;
+    margin: auto !important;
+    position: relative;
+}
+
+.parent span{
+    
+
+}
+
+.container:hover{
+    animation: slide 1s ease-in-out;
+    color: black;
+}
+
+@keyframes slide{
+    0%{
+        transform: translateX(0%);
+    }
+    
+    100%{
+        transform: translateX(100%);
+        background-color: #fff;
+    }
+}
